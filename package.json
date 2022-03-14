@@ -1,0 +1,17 @@
+{
+  "name": "esbuild-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^17.0.40",
+    "@types/react-dom": "^17.0.13",
+    "esbuild": "^0.14.26",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.6.2"
+  },
+  "scripts": {
+    "build": "esbuild src/App.tsx --bundle --minify --sourcemap --outfile=public/bundle.js"
+  }
+}
