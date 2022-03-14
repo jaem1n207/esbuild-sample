@@ -10,7 +10,7 @@ const App = ({ message }: { message: string }) => {
     <>
       <h1>{message}</h1>
       <h2>Count: {count}</h2>
-      <button onClick={increment}>Increment</button>
+      <button onClick={increment}>Increment +</button>
     </>
   );
 };
